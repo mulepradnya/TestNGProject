@@ -7,7 +7,7 @@ public class PrioritiesInTestNG {
 	//Default priority will be 0
 	//Priority will be negative number
 
-	@Test (priority = 1)
+	@Test (priority = 11)
 	public void method1 () {
 		System.out.println("PrioritiesInTestNGMethod1");
 	}
@@ -22,7 +22,7 @@ public class PrioritiesInTestNG {
 		System.out.println("PrioritiesInTestNGMethod3");
 	}	
 	
-	@Test (priority = 15)
+	@Test (priority = 150)
 	public void method4 () {
 		System.out.println("PrioritiesInTestNGMethod4");
 	}
